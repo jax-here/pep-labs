@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 
 /**
  * An array is a group of some predefined number of elements.
@@ -15,7 +16,8 @@ public class ArrayBasics {
      * @return the length of arr.
      */
     public int getLengthOfArray(int[] arr){
-        return 0;
+        int sum = arr.length();
+        return sum;
     }
 
 
@@ -27,7 +29,8 @@ public class ArrayBasics {
      * @return the element at index n of arr.
      */
     public int getNthElementOfArray(int[] arr, int n){
-        return 0;
+        int here = arr[n];
+        return here;
     }
 
     /**
@@ -39,6 +42,7 @@ public class ArrayBasics {
      * @return nothing. Because of pass-by-reference, any change to the array will be reflected across our java program.
      */
     public void setNthElementOfArray(int[] arr, int n, int val){
+        arr[n] = val;
 
     }
 
@@ -47,6 +51,7 @@ public class ArrayBasics {
      * @return a new int array that can contain n elements.
      */
     public int[] returnNewArraySizeN(int n){
+        Array[] = new Array[n];
         return null;
     }
 }
