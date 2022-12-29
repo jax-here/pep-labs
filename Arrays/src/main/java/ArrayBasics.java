@@ -16,7 +16,7 @@ public class ArrayBasics {
      * @return the length of arr.
      */
     public int getLengthOfArray(int[] arr){
-        int sum = arr.length();
+        int sum = arr.length;
         return sum;
     }
 
@@ -51,7 +51,8 @@ public class ArrayBasics {
      * @return a new int array that can contain n elements.
      */
     public int[] returnNewArraySizeN(int n){
-        Array[] = new Array[n];
-        return null;
+        int[] a;
+        a = new int[n];
+        return a;
     }
 }
