@@ -16,6 +16,15 @@ public class ExceptionChallenge {
      *
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
-    public void mustThrow(){
+    public void mustThrow() throws Exception {
+        int array [] = {0,1,2,3};
+        int t = array[6];
+        try{
+        mustThrow();
+        }
+        catch (Exception a){
+            a.printStackTrace();
+        }
+    
     }
 }
